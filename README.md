@@ -1,4 +1,4 @@
-# bulletin
+# bulletins
 
 **Modular changelogs from bulletins.**  
 A developer-friendly tool for managing changelogs as individual Markdown files, then compiling them into a single `CHANGELOG.md`.
@@ -19,12 +19,12 @@ A developer-friendly tool for managing changelogs as individual Markdown files, 
 ## 🚀 Getting Started
 
 ```bash
-pip install bulletin
+pip install bulletins
 ```
 
 ```bash
-bulletin add      # create a new bulletin describing a change
-bulletin compile  # compile all bulletins into a CHANGELOG.md
+bulletins add      # create a new bulletin describing a change
+bulletins compile  # compile all bulletins into a CHANGELOG.md
 ```
 
 
@@ -58,12 +58,12 @@ Bulletin files are automatically grouped by headings when compiled into a single
 
 ## 🏷️ Version Detection
 
-**bulletin** determines versions from Git tags following [semantic versioning](https://semver.org/) to group changes under section in the `CHANGELOG.md` file. The default behavior is:
+**bulletins** determines versions from Git tags following [semantic versioning](https://semver.org/) to group changes under section in the `CHANGELOG.md` file. The default behavior is:
 
 - Released versions from tags like `v1.0.0` → shown as `1.0.0 (2025-06-18)`
 - Unreleased versions from the branch name, e.g. `develop` → shown as `develop (Unreleased)`
 
-It is also possible to configure **bulletin** to determine the beginning point and name of unreleased versions from git tags, such as `v1.0.1-pre`, shown as `1.0.1 (Unreleased)`.
+It is also possible to configure **bulletins** to determine the beginning point and name of unreleased versions from git tags, such as `v1.0.1-pre`, shown as `1.0.1 (Unreleased)`.
 
 The version is determined from the closest matching tag to the bulletin's commit.
 

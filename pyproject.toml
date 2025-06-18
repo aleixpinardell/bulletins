@@ -1,5 +1,5 @@
 [project]
-name = "bulletin"
+name = "bulletins"
 version = "0.1.0"
 description = "Modular changelogs using Markdown bulletins"
 readme = "README.md"
@@ -12,7 +12,7 @@ dependencies = []
 keywords = ["changelog"]
 
 [project.scripts]
-bulletin = "bulletin:main"
+bulletins = "bulletins:main"
 
 [build-system]
 requires = ["hatchling"]
