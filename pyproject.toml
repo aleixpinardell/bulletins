@@ -11,6 +11,10 @@ license = { text = "MIT" }
 dependencies = []
 keywords = ["changelog"]
 
+[project.urls]
+Homepage = "https://github.com/aleixpinardell/bulletins"
+PyPI = "https://pypi.org/project/bulletins/"
+
 [project.scripts]
 bulletins = "bulletins:main"
 

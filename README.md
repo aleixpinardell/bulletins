@@ -1,5 +1,7 @@
 # bulletins
 
+[![PyPI Version](https://img.shields.io/pypi/v/bulletins.svg)](https://pypi.org/p/bulletins/)
+
 **Modular changelogs from bulletins.**  
 A developer-friendly tool for managing changelogs as individual Markdown files, then compiling them into a single `CHANGELOG.md`.
 
